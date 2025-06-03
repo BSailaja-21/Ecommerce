@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    
+    
+}
+.map-container {
+    flex: 1;
+    height: 50px;
+    width:50px; /* Set a fixed height for the map */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left:82%;
+    margin-right: 15%;
+    border: 2px solid #ccc; /* Optional: Add a border for styling */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -55px;
+
+    
+    
+    
+  }
+  .map-container:hover{
+    height: 150px;
+    width:150px;
+  }
+
+  
+  .profile-map {
+    width: 50px;
+    height: 50px;
+  }
+  .profile-map:hover {
+    width: 150px;
+    height: 150px;
+  }
+  
+ 
+  
+  
+section {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://png.pngtree.com/back_origin_pic/05/08/54/22c482ecfeff7f1372819eb7acf08ecc.jpg');
+    margin-bottom: 10px;
+    padding: 10px 10%;
+    overflow: hidden;
+    margin-bottom: 0%;
+   background-position: center;
+    
+}
+
+.cont{
+    margin-top: 9%;
+    width: 95%;
+    background:url('https://img.freepik.com/free-photo/beauty-cosmetics-products-roses-with-copy-space_23-2148598586.jpg?ga=GA1.1.154631933.1721124402&semt=ais_hybrid');
+    margin-left: 5%;
+    margin-right: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding :20px 60px 40px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0,0,0.2); 
+    border-radius: 6px;
+    position: relative;
+    margin-bottom: 2%;
+}
+.cont .content {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.cont .content .left-side{
+    width:25%;
+    height:100%;
+    position: relative;
+
+}
+.content .left-side .details{
+    margin:14px;
+    text-align: center;
+    
+}
+.content .left-side .details i{
+    font-size: 30px;
+    color:blueviolet;
+    margin-bottom:10px ;
+
+}
+.content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.content .left-side::before{
+    content:'';
+    position: absolute;
+    height: 70%;
+    width:2px;
+    background: #afafb6;
+    right:-15px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.cont .content .right-side{
+    width:75%;
+    margin-left: 75px;
+
+}
+.cont .content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color:#3e2098;
+}
+.right-side .input-box{
+    height:50px;
+    width:100%;
+    margin:12px 0;
+
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+    height:100%;
+    width: 100%;
+    border:none;
+    border-radius: 6px;
+    background: #F0F1F8;
+    font-size: 16px;
+    padding:0 15px;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+    font-size:14px;
+    color: #2f2f31;
+
+
+}
+.right-side .message-box{
+    min-height: 110px;
+    resize: none;
+}
+.right-side button{
+    color:#fff;
+    font-size: 18px;
+    background:blueviolet ;
+    outline:none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.right-side button:hover{
+    background: #3e2098;
+}

@@ -1,0 +1,146 @@
+/* General styles for card container */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  .cards{
+    background-color: #E100FF;
+  }
+  :root{
+    --color-text: #616161;
+    --color-text-btn: #ffffff;
+    --card1-gradient-color1: #f12711;
+    --card1-gradient-color2: #f5af19;
+    --card2-gradient-color1: #7F00FF;
+    --card2-gradient-color2: #E100FF;
+    --card3-gradient-color1: #3f2b96;
+    --card3-gradient-color2: #a8c0ff;
+    --card4-gradient-color1: #11998e;
+    --card4-gradient-color2: #38ef7d;
+  }
+  
+.card-container {
+    display: flex; /* Flexbox for side-by-side layout */
+    flex-wrap: wrap; /* Allows wrapping if cards don't fit in one row */
+    gap: 16px; /* Space between cards */
+    justify-content: center; /* Center the cards horizontally */
+    padding: 16px;
+    margin: 0 auto;
+    margin-top: 7%;
+  }
+  
+  /* Individual card styles */
+  .card-wrap {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px; /* Fixed width for cards */
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  /* Card header styles */
+  .card-header{
+    height: 200px;
+    width: 100%;
+  
+    border-radius:100% 0% 100% 0% / 0% 50% 50% 100%;
+    display: grid;
+    place-items: center;
+  }
+  /* Unique header background colors */
+  
+  
+  /* Card content styles */
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #555;
+  }
+  
+  /* Button styles */
+  .card-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .card-header.one{
+    background: url('https://static.vecteezy.com/system/resources/previews/028/099/987/non_2x/beauty-cosmetic-makeup-product-brushes-lipstick-nail-polish-collection-on-white-background-generative-ai-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-header.two{
+    background: url('https://tse2.mm.bing.net/th?id=OIP.Y21wKE6QZOunBPX0njfN-wHaGK&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-header.three{
+    background: url('https://i.pinimg.com/originals/02/47/56/024756d6a1482a7ab2ad3957b2e98f61.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-header.four{
+    background: url('https://tse1.mm.bing.net/th?id=OIP.2kgNHmEf8SeapXnbJws0bQHaHa&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-header.five{
+    background: url('https://www.k4fashion.com/wp-content/uploads/2021/10/purple-nail-art-designs-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-header.six{
+    background: url('https://i.ytimg.com/vi/DuD4IVgXUbA/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-header.seven{
+    background: url('http://www.fashionlady.in/wp-content/uploads/2015/10/temple-jewellery-designs-e1509697920893.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-header.eight{
+    background: url('https://wafabrows.com/wp-content/uploads/2020/04/eyebrow-threading.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .card-btn.one{
+    background: linear-gradient(to left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+  }
+  .card-btn.two{
+    background: linear-gradient(to left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+  }
+  .card-btn.three{
+    background: linear-gradient(to left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+  }
+  .card-btn.four{
+    background: linear-gradient(to left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+  }
+  .card-btn.five{
+    background: linear-gradient(to left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+  }
+  .card-btn.six{
+    background: linear-gradient(to left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+  }
+  .card-btn.seven{
+    background: linear-gradient(to left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+  }
+  .card-btn.eight{
+    background: linear-gradient(to left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+  }
